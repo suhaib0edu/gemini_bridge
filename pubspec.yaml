@@ -1,14 +1,23 @@
 name: gemini_bridge
-description: A starting point for Dart libraries or applications.
+description: A pure Dart bridge to the Google Gemini API. Lightweight, powerful, and without any Flutter dependencies.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+homepage: https://github.com/suhaib0edu/gemini_bridge 
+topics:
+  - dart
+  - gemini
+  - google
+  - api
+  - bridge
+  - http
+  - sdk
+  
+license: Apache-2.0 
 
 environment:
-  sdk: ^3.8.1
-
-# Add regular dependencies here.
+  sdk: '>=3.2.0 <4.0.0'
+  flutter: ">=3.16.0"
 dependencies:
-  # path: ^1.8.0
+  http: ^1.1.0
 
 dev_dependencies:
   lints: ^5.0.0

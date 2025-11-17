@@ -1,8 +1,43 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
 library;
 
-export 'src/gemini_bridge_base.dart';
+export 'src/client/gemini_client.dart';
+export 'src/core/error.dart';
 
-// TODO: Export any libraries intended for clients of this package.
+export 'src/firebase_ai/api.dart'
+    show
+        BlockReason,
+        Candidate,
+        CountTokensResponse,
+        FinishReason,
+        GenerateContentResponse,
+        GenerationConfig,
+        HarmBlockThreshold,
+        HarmCategory,
+        SafetySetting;
+        
+export 'src/firebase_ai/content.dart'
+    show
+        Content,
+        FunctionCall,
+        FunctionResponse,
+        InlineDataPart,
+        Part,
+        TextPart,
+        UnknownPart;
+
+export 'src/firebase_ai/schema.dart' 
+    show 
+        Schema, 
+        SchemaType;
+
+export 'src/firebase_ai/tool.dart'
+    show
+        FunctionCallingConfig,
+        FunctionCallingMode,
+        FunctionDeclaration,
+        Tool,
+        ToolConfig;
+
+export 'src/firebase_ai/developer/api.dart'
+    show
+        DeveloperSerialization;
